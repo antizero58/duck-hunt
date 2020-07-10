@@ -1,105 +1,105 @@
 @keyframes duck-fly-1 {
   0% {
     left: -55px;
-    top: 34vh;
+    top: 43vh;
   }
   50% {
     left: 50%;
-    top: 18vh;
+    top: 10vh;
   }
   100% {
     left: 100%;
-    top: 60vh;
+    top: 46vh;
   }
 }
 
 @keyframes duck-fly-2 {
   0% {
     left: -55px;
-    top: 36vh;
+    top: 2vh;
   }
   50% {
     left: 50%;
-    top: 8vh;
+    top: 71vh;
   }
   100% {
     left: 100%;
-    top: 4vh;
+    top: 21vh;
   }
 }
 
 @keyframes duck-fly-3 {
   0% {
     left: -55px;
-    top: 2vh;
+    top: 5vh;
   }
   50% {
     left: 50%;
-    top: 17vh;
+    top: 11vh;
   }
   100% {
     left: 100%;
-    top: 68vh;
+    top: 72vh;
   }
 }
 
 @keyframes duck-fly-4 {
   0% {
     left: -55px;
-    top: 77vh;
+    top: 21vh;
   }
   50% {
     left: 50%;
-    top: 41vh;
+    top: 20vh;
   }
   100% {
     left: 100%;
-    top: 74vh;
+    top: 59vh;
   }
 }
 
 @keyframes duck-fly-5 {
   0% {
     left: -55px;
-    top: 52vh;
+    top: 47vh;
   }
   50% {
     left: 50%;
-    top: 26vh;
+    top: 30vh;
   }
   100% {
     left: 100%;
-    top: 2vh;
+    top: 12vh;
   }
 }
 
 @keyframes duck-fly-6 {
   0% {
     left: -55px;
-    top: 12vh;
+    top: 37vh;
   }
   50% {
     left: 50%;
-    top: 40vh;
+    top: 23vh;
   }
   100% {
     left: 100%;
-    top: 7vh;
+    top: 8vh;
   }
 }
 
 @keyframes duck-fly-7 {
   0% {
     left: -55px;
-    top: 41vh;
+    top: 66vh;
   }
   50% {
     left: 50%;
-    top: 56vh;
+    top: 14vh;
   }
   100% {
     left: 100%;
-    top: 8vh;
+    top: 50vh;
   }
 }
 
@@ -119,44 +119,44 @@ h1 {
 }
 
 input[type="checkbox"] {
-  /*position  : absolute;*/
+  position: absolute;
   visibility: hidden;
-  /*left      : -999999px;*/
+  left: -999999px;
 }
 
 .duck-1 {
   position: absolute;
-  animation: duck-fly-1 5s linear 1s 1 both;
+  animation: duck-fly-1 10s linear 1s 1 both;
 }
 
 .duck-2 {
   position: absolute;
-  animation: duck-fly-2 5s linear 2s 1 both;
+  animation: duck-fly-2 10s linear 2s 1 both;
 }
 
 .duck-3 {
   position: absolute;
-  animation: duck-fly-3 5s linear 3s 1 both;
+  animation: duck-fly-3 10s linear 3s 1 both;
 }
 
 .duck-4 {
   position: absolute;
-  animation: duck-fly-4 5s linear 4s 1 both;
+  animation: duck-fly-4 10s linear 4s 1 both;
 }
 
 .duck-5 {
   position: absolute;
-  animation: duck-fly-5 5s linear 5s 1 both;
+  animation: duck-fly-5 10s linear 5s 1 both;
 }
 
 .duck-6 {
   position: absolute;
-  animation: duck-fly-6 5s linear 6s 1 both;
+  animation: duck-fly-6 10s linear 6s 1 both;
 }
 
 .duck-7 {
   position: absolute;
-  animation: duck-fly-7 5s linear 7s 1 both;
+  animation: duck-fly-7 10s linear 7s 1 both;
 }
 
 img {

@@ -33,16 +33,16 @@ h1 {
 }
 
 input[type="checkbox"] {
-    /*position  : absolute;*/
+    position  : absolute;
     visibility: hidden;
-    /*left      : -999999px;*/
+    left      : -999999px;
 }
 
 
 @for $i from 1 through 7 {
     .duck-#{$i} {
         position : absolute;
-        animation: duck-fly-#{$i} 5s linear #{$i}s 1 both;
+        animation: duck-fly-#{$i} 10s linear #{$i}s 1 both;
     }
 }
 
