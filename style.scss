@@ -1,18 +1,18 @@
-@for $i from 1 through 6 {
+@for $i from 1 through 7 {
     @keyframes duck-fly-#{$i} {
         0% {
             left: -55px;
-            top : random(75) + vh;
+            top : random(80) + vh;
         }
 
         50% {
             left: 50%;
-            top : random(75) + vh;
+            top : random(80) + vh;
         }
 
         100% {
-            left: 105%;
-            top : random(75) + vh;
+            left: 100%;
+            top : random(80) + vh;
         }
     }
 }
@@ -33,16 +33,16 @@ h1 {
 }
 
 input[type="checkbox"] {
-    position  : absolute;
+    /*position  : absolute;*/
     visibility: hidden;
-    left      : -999999px;
+    /*left      : -999999px;*/
 }
 
 
-@for $i from 1 through 6 {
+@for $i from 1 through 7 {
     .duck-#{$i} {
         position : absolute;
-        animation: duck-fly-#{$i} 10s linear #{$i}s 1 both;
+        animation: duck-fly-#{$i} 5s linear #{$i}s 1 both;
     }
 }
 
@@ -61,4 +61,12 @@ input[type="checkbox"]:checked+img {
 
 h1::after {
     content: ' 'counter(count);
+}
+
+.restart-btn {
+    width: 70px;
+    height: 25px;
+    position: absolute;
+    bottom  : 50px;
+    left    : 32px;
 }
